@@ -1,37 +1,24 @@
-/* body {
-	background-color: #ebcf61;
-	margin-top: 20px;
-}
-
-img {
-	width: 200px;
-	height: auto;
-} */
-
 body {
     font-family: 'Germania One', cursive;
-    width: 100%;
-    background-image: url('../img/burger.jpg');
+    background-color: #ffcc80;   
+    /* background-image: url('../img/burger.jpg'); */
 }
 
-h1 {
-    margin: auto 0;
-    margin-left: 20%;
+#topTitle {
+    margin: auto 0;   
     margin-bottom: 3%;
     margin-top: 2%;
+    text-align: center;
 }
 
-#avail {
+#burgersAvail {
     float: left;
     margin-right: 6%;
     margin-left: 10%;
-
-
 }
 
 #devoured {
-    float: left;
-
+    float: right;
 }
 
 li {
@@ -39,8 +26,18 @@ li {
     list-style-type: none;
 }
 
-
-#add {
+#addBurger {
     clear: both;
-    margin-left: 25%;
+    margin-left: 35%;   
+    margin-bottom: 3%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.form-control{
+    background-color: #ffebcc;
+}
+
+img{
+    overflow: hidden;
 }
